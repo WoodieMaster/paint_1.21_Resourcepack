@@ -1,0 +1,7 @@
+{
+    "parent": "block/color_cube_2_parent",
+    "textures": {
+        "cube": "paint/color_blue",
+        "strip": "paint/ground/white01"
+    }
+}

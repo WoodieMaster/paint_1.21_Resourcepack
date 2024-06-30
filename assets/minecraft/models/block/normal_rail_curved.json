@@ -1,0 +1,44 @@
+{
+"__comment": "designed by halbzwilling with bdcraft cubik pro 0.96 beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "block/fizzler",
+    "texture": "block/fizzler"
+},
+"elements": [ 
+{
+    "from": [ 9, 16, 7 ],
+    "to": [ 16, 32, 9 ],
+    "faces": {
+        "north": { "uv": [ 9, 0, 16, 16 ], "texture": "#texture", "cullface": "up" },
+        "south": { "uv": [ 9, 0, 16, 16 ], "texture": "#texture", "cullface": "up" }
+    }
+},
+{
+    "from": [ 7, 7, 7 ],
+    "to": [ 9, 16, 16 ],
+    "faces": {
+        "north": { "uv": [ 7, 0, 9, 9 ], "texture": "#texture" },
+        "west":  { "uv": [ 7, 0, 16, 9 ], "texture": "#texture" },
+        "east":  { "uv": [ 7, 0, 16, 9 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 7, 16, 7 ],
+    "to": [ 9, 32, 16 ],
+    "faces": {
+        "north": { "uv": [ 7, 0, 9, 16 ], "texture": "#texture", "cullface": "up" },
+        "west":  { "uv": [ 7, 0, 16, 16 ], "texture": "#texture", "cullface": "up" },
+        "east":  { "uv": [ 7, 0, 16, 16 ], "texture": "#texture", "cullface": "up" }
+    }
+},
+{
+    "from": [ 9, 7, 7 ],
+    "to": [ 16, 16, 9 ],
+    "faces": {
+        "north": { "uv": [ 9, 0, 16, 9 ], "texture": "#texture" },
+        "south": { "uv": [ 9, 0, 16, 9 ], "texture": "#texture" }
+    }
+}
+]
+}

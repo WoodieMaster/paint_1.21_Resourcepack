@@ -1,0 +1,110 @@
+{
+"__comment": "designed by halbzwilling with bdcraft cubik pro 0.96 beta - http://bdcraft.net",
+"textures": {
+    "particle": "block/red_fizzler",
+    "texture": "block/red_fizzler",
+    "sandstone_bottom": "paint/ground/white01"
+},
+"elements": [ 
+{
+    "from": [ 7, 0, 0 ],
+    "to": [ 9, 16, 6.5 ],
+    "faces": {
+        "west":  { "uv": [ 0, 0, 6.5, 16 ], "texture": "#texture", "cullface": "up" },
+        "east":  { "uv": [ 0, 0, 6.5, 16 ], "texture": "#texture", "cullface": "up" }
+    }
+},
+{
+    "from": [ 9.5, 0, 7 ],
+    "to": [ 16, 16, 9 ],
+    "faces": {
+        "north": { "uv": [ 9.5, 0, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 9.5, 0, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 6, 0, 6 ],
+    "to": [ 10, 16, 10 ],
+    "faces": {
+        "down":  { "uv": [ 10, 10, 6, 6 ], "texture": "#sandstone_bottom" },
+        "up":    { "uv": [ 6, 6, 10, 10 ], "texture": "#sandstone_bottom" },
+        "north": { "uv": [ 6, 0, 10, 16 ], "texture": "#sandstone_bottom" },
+        "south": { "uv": [ 6, 0, 10, 16 ], "texture": "#sandstone_bottom" },
+        "west":  { "uv": [ 6, 0, 10, 16 ], "texture": "#sandstone_bottom" },
+        "east":  { "uv": [ 6, 0, 10, 16 ], "texture": "#sandstone_bottom" }
+    }
+},
+{
+    "from": [ 7.5, 1, 2.5 ],
+    "to": [ 8.5, 2, 5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 5, 7.5, 2.5 ], "texture": "#sandstone_bottom" },
+        "up":    { "uv": [ 7.5, 2.5, 8.5, 5 ], "texture": "#sandstone_bottom" },
+        "north": { "uv": [ 7.5, 14, 8.5, 15 ], "texture": "#sandstone_bottom" },
+        "south": { "uv": [ 7.5, 14, 8.5, 15 ], "texture": "#sandstone_bottom" },
+        "west":  { "uv": [ 2.5, 14, 5, 15 ], "texture": "#sandstone_bottom" },
+        "east":  { "uv": [ 11, 14, 13.5, 15 ], "texture": "#sandstone_bottom" }
+    }
+},
+{
+    "from": [ 7.5, 14, 2.5 ],
+    "to": [ 8.5, 15, 5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 5, 7.5, 2.5 ], "texture": "#sandstone_bottom" },
+        "up":    { "uv": [ 7.5, 2.5, 8.5, 5 ], "texture": "#sandstone_bottom" },
+        "north": { "uv": [ 7.5, 1, 8.5, 2 ], "texture": "#sandstone_bottom" },
+        "south": { "uv": [ 7.5, 1, 8.5, 2 ], "texture": "#sandstone_bottom" },
+        "west":  { "uv": [ 2.5, 1, 5, 2 ], "texture": "#sandstone_bottom" },
+        "east":  { "uv": [ 11, 1, 13.5, 2 ], "texture": "#sandstone_bottom" }
+    }
+},
+{
+    "from": [ 11, 14, 7.5 ],
+    "to": [ 13.5, 15, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 5, 8.5, 2.5, 7.5 ], "texture": "#sandstone_bottom" },
+        "up":    { "uv": [ 11, 7.5, 13.5, 8.5 ], "texture": "#sandstone_bottom" },
+        "north": { "uv": [ 2.5, 1, 5, 2 ], "texture": "#sandstone_bottom" },
+        "south": { "uv": [ 11, 1, 13.5, 2 ], "texture": "#sandstone_bottom" },
+        "west":  { "uv": [ 7.5, 1, 8.5, 2 ], "texture": "#sandstone_bottom" },
+        "east":  { "uv": [ 7.5, 1, 8.5, 2 ], "texture": "#sandstone_bottom" }
+    }
+},
+{
+    "from": [ 11, 1, 7.5 ],
+    "to": [ 13.5, 2, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 5, 8.5, 2.5, 7.5 ], "texture": "#sandstone_bottom" },
+        "up":    { "uv": [ 11, 7.5, 13.5, 8.5 ], "texture": "#sandstone_bottom" },
+        "north": { "uv": [ 2.5, 14, 5, 15 ], "texture": "#sandstone_bottom" },
+        "south": { "uv": [ 11, 14, 13.5, 15 ], "texture": "#sandstone_bottom" },
+        "west":  { "uv": [ 7.5, 14, 8.5, 15 ], "texture": "#sandstone_bottom" },
+        "east":  { "uv": [ 7.5, 14, 8.5, 15 ], "texture": "#sandstone_bottom" }
+    }
+},
+{
+    "from": [ 10, 0, 7.5 ],
+    "to": [ 11, 16, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 6, 8.5, 5, 7.5 ], "texture": "#sandstone_bottom" },
+        "up":    { "uv": [ 10, 7.5, 11, 8.5 ], "texture": "#sandstone_bottom" },
+        "north": { "uv": [ 5, 0, 6, 16 ], "texture": "#sandstone_bottom" },
+        "south": { "uv": [ 10, 0, 11, 16 ], "texture": "#sandstone_bottom" },
+        "west":  { "uv": [ 7.5, 0, 8.5, 16 ], "texture": "#sandstone_bottom" },
+        "east":  { "uv": [ 7.5, 0, 8.5, 16 ], "texture": "#sandstone_bottom" }
+    }
+},
+{
+    "from": [ 7.5, 0, 5 ],
+    "to": [ 8.5, 16, 6 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 6, 7.5, 5 ], "texture": "#sandstone_bottom" },
+        "up":    { "uv": [ 7.5, 5, 8.5, 6 ], "texture": "#sandstone_bottom" },
+        "north": { "uv": [ 7.5, 0, 8.5, 16 ], "texture": "#sandstone_bottom" },
+        "south": { "uv": [ 7.5, 0, 8.5, 16 ], "texture": "#sandstone_bottom" },
+        "west":  { "uv": [ 5, 0, 6, 16 ], "texture": "#sandstone_bottom" },
+        "east":  { "uv": [ 10, 0, 11, 16 ], "texture": "#sandstone_bottom" }
+    }
+}
+]
+}

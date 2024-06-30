@@ -1,0 +1,25 @@
+{
+	"__comment": "Designed by Halbzwilling with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "paint/ground/white01",
+		"texture": "paint/lines/line",
+		"texture1": "paint/lines/line_cross",
+		"texture2": "paint/lines/line_diagonal"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box2",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#particle", "cullface": "down", "rotation": 180 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#particle", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "north", "rotation": 90 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "south", "rotation": 90 },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "west", "rotation": 90 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "east", "rotation": 90 }
+			}
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/random/fancy_green_1" },
+			{ "model": "block/random/fancy_green_1", "y": 90 },
+			{ "model": "block/random/fancy_green_1", "y": 180 },
+			{ "model": "block/random/fancy_green_1", "y": 270 },
+			{ "model": "block/random/fancy_green_1", "x": 90 },
+			{ "model": "block/random/fancy_green_1", "x": 180 },
+			{ "model": "block/random/fancy_green_1", "x": 270 },
+
+            { "model": "block/random/fancy_green_2" },
+			{ "model": "block/random/fancy_green_2", "y": 90 },
+			{ "model": "block/random/fancy_green_2", "y": 180 },
+			{ "model": "block/random/fancy_green_2", "y": 270 },
+			{ "model": "block/random/fancy_green_2", "x": 90 },
+			{ "model": "block/random/fancy_green_2", "x": 180 },
+			{ "model": "block/random/fancy_green_2", "x": 270 },
+
+            { "model": "block/random/fancy_green_3" },
+			{ "model": "block/random/fancy_green_3", "y": 90 },
+			{ "model": "block/random/fancy_green_3", "y": 180 },
+			{ "model": "block/random/fancy_green_3", "y": 270 },
+			{ "model": "block/random/fancy_green_3", "x": 90 },
+			{ "model": "block/random/fancy_green_3", "x": 180 },
+			{ "model": "block/random/fancy_green_3", "x": 270 },
+
+            { "model": "block/random/fancy_green_4" },
+			{ "model": "block/random/fancy_green_4", "y": 90 },
+			{ "model": "block/random/fancy_green_4", "y": 180 },
+			{ "model": "block/random/fancy_green_4", "y": 270 },
+			{ "model": "block/random/fancy_green_4", "x": 90 },
+			{ "model": "block/random/fancy_green_4", "x": 180 },
+			{ "model": "block/random/fancy_green_4", "x": 270 },
+
+            { "model": "block/random/fancy_green_5", "weight": 6 },
+			{ "model": "block/random/fancy_green_5", "weight": 6, "y": 90 },
+			{ "model": "block/random/fancy_green_5", "weight": 6, "y": 180 },
+			{ "model": "block/random/fancy_green_5", "weight": 6, "y": 270 },
+			{ "model": "block/random/fancy_green_5", "weight": 6, "x": 90 },
+			{ "model": "block/random/fancy_green_5", "weight": 6, "x": 180 },
+			{ "model": "block/random/fancy_green_5", "weight": 6, "x": 270 },
+
+            { "model": "block/random/fancy_green_6", "weight": 6 },
+			{ "model": "block/random/fancy_green_6", "weight": 6, "y": 90 },
+			{ "model": "block/random/fancy_green_6", "weight": 6, "y": 180 },
+			{ "model": "block/random/fancy_green_6", "weight": 6, "y": 270 },
+			{ "model": "block/random/fancy_green_6", "weight": 6, "x": 90 },
+			{ "model": "block/random/fancy_green_6", "weight": 6, "x": 180 },
+			{ "model": "block/random/fancy_green_6", "weight": 6, "x": 270 },
+
+            { "model": "block/random/fancy_green_7", "weight": 6 },
+			{ "model": "block/random/fancy_green_7", "weight": 6, "y": 90 },
+			{ "model": "block/random/fancy_green_7", "weight": 6, "y": 180 },
+			{ "model": "block/random/fancy_green_7", "weight": 6, "y": 270 },
+			{ "model": "block/random/fancy_green_7", "weight": 6, "x": 90 },
+			{ "model": "block/random/fancy_green_7", "weight": 6, "x": 180 },
+			{ "model": "block/random/fancy_green_7", "weight": 6, "x": 270 }
+        ]
+    }
+}

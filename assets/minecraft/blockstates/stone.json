@@ -1,0 +1,41 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/random/white01" },
+			{ "model": "block/random/white01", "y": 90 },
+			{ "model": "block/random/white01", "y": 180 },
+			{ "model": "block/random/white01", "y": 270 },
+			{ "model": "block/random/white01", "x": 90 },
+			{ "model": "block/random/white01", "x": 180 },
+			{ "model": "block/random/white01", "x": 270 },
+            { "model": "block/random/white02" },
+			{ "model": "block/random/white02", "y": 90 },
+			{ "model": "block/random/white02", "y": 180 },
+			{ "model": "block/random/white02", "y": 270 },
+			{ "model": "block/random/white02", "x": 90 },
+			{ "model": "block/random/white02", "x": 180 },
+			{ "model": "block/random/white02", "x": 270 },
+            { "model": "block/random/white03" },
+			{ "model": "block/random/white03", "y": 90 },
+			{ "model": "block/random/white03", "y": 180 },
+			{ "model": "block/random/white03", "y": 270 },
+			{ "model": "block/random/white03", "x": 90 },
+			{ "model": "block/random/white03", "x": 180 },
+			{ "model": "block/random/white03", "x": 270 },
+            { "model": "block/random/white04" },
+			{ "model": "block/random/white04", "y": 90 },
+			{ "model": "block/random/white04", "y": 180 },
+			{ "model": "block/random/white04", "y": 270 },
+			{ "model": "block/random/white04", "x": 90 },
+			{ "model": "block/random/white04", "x": 180 },
+			{ "model": "block/random/white04", "x": 270 },
+            { "model": "block/random/white05" },
+			{ "model": "block/random/white05", "y": 90 },
+			{ "model": "block/random/white05", "y": 180 },
+			{ "model": "block/random/white05", "y": 270 },
+			{ "model": "block/random/white05", "x": 90 },
+			{ "model": "block/random/white05", "x": 180 },
+			{ "model": "block/random/white05", "x": 270 }
+        ]
+    }
+}

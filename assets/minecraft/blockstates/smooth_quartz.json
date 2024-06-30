@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/smooth_quartz" },
+
+            { "model": "block/smooth_quartz_2" },
+			{ "model": "block/smooth_quartz_2", "x": 90 },
+			{ "model": "block/smooth_quartz_2", "y": 90 },
+
+            { "model": "block/smooth_quartz_3" },
+			{ "model": "block/smooth_quartz_3", "x": 90 },
+			{ "model": "block/smooth_quartz_3", "y": 90 },
+
+            { "model": "block/smooth_quartz_4" },
+			{ "model": "block/smooth_quartz_4", "x": 90 },
+			{ "model": "block/smooth_quartz_4", "y": 90 }
+        ]
+    }
+}

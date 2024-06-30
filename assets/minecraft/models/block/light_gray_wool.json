@@ -1,0 +1,7 @@
+{
+    "parent": "block/painter_parent",
+    "textures": {
+        "base": "paint/ground/black01",
+        "side_cubes": "paint/spreader_green"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_gate_frame_parent",
+    "textures": {
+        "frame": "paint/selectgreen"
+    }
+}

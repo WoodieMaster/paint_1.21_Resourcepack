@@ -1,0 +1,54 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/bow"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"damaged": 0,
+				"damage": 0.0025974025974025974
+			},
+			"model": "custom/gun/gun_red"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"damaged": 0,
+				"damage": 0.0025974025974025974
+			},
+			"model": "custom/gun/gun_red"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.65,
+				"damaged": 0,
+				"damage": 0.0025974025974025974
+			},
+			"model": "custom/gun/gun_red"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.9,
+				"damaged": 0,
+				"damage": 0.0025974025974025974
+			},
+			"model": "custom/gun/gun_red"
+		},
+
+        {
+            "predicate": { "pulling": 1 },
+            "model": "item/bow_pulling_0"
+        },
+        {
+            "predicate": { "pulling": 1, "pull": 0.65 },
+            "model": "item/bow_pulling_1"
+        },
+        {
+            "predicate": { "pulling": 1, "pull": 0.9 },
+            "model": "item/bow_pulling_2"
+        }
+	]
+}

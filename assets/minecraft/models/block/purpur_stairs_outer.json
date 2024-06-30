@@ -1,0 +1,6 @@
+{
+    "parent": "block/slope_outer_fornow",
+    "textures": {
+        "all": "paint/wall01"
+    }
+}

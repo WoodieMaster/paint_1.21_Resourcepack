@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/blue_concrete" },
+
+            { "model": "block/blue_concrete_2" },
+			{ "model": "block/blue_concrete_2", "x": 90 },
+			{ "model": "block/blue_concrete_2", "y": 90 },
+
+            { "model": "block/blue_concrete_3" },
+			{ "model": "block/blue_concrete_3", "x": 90 },
+			{ "model": "block/blue_concrete_3", "y": 90 },
+
+            { "model": "block/blue_concrete_4" },
+			{ "model": "block/blue_concrete_4", "x": 90 },
+			{ "model": "block/blue_concrete_4", "y": 90 }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "":            [    { "model": "block/dead_horn_coral_fan", "weight": 2 },
+                            { "model": "block/dead_horn_coral_fan/dead_horn_coral_fan1", "weight": 2 },
+                            { "model": "block/dead_horn_coral_fan/dead_horn_coral_fan2", "weight": 2 },
+                            { "model": "block/dead_horn_coral_fan/dead_horn_coral_fan3", "weight": 2 },
+                            { "model": "block/dead_horn_coral_fan/dead_horn_coral_fan4", "weight": 2 } ]
+
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/purple_concrete" },
+
+            { "model": "block/purple_concrete_2" },
+			{ "model": "block/purple_concrete_2", "x": 90 },
+			{ "model": "block/purple_concrete_2", "y": 90 },
+
+            { "model": "block/purple_concrete_3" },
+			{ "model": "block/purple_concrete_3", "x": 90 },
+			{ "model": "block/purple_concrete_3", "y": 90 },
+
+            { "model": "block/purple_concrete_4" },
+			{ "model": "block/purple_concrete_4", "x": 90 },
+			{ "model": "block/purple_concrete_4", "y": 90 }
+        ]
+    }
+}

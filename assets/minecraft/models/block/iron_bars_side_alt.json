@@ -1,0 +1,55 @@
+{
+    "__comment": "Model built by Halbzwilling and refined a wee bit by Hallo89",
+    "textures": {
+        "particle": "paint/ground/black01",
+        "bars": "paint/ground/black01"
+    },
+    "elements": [
+        {
+            "name": "Element",
+            "from": [ 6.5, 14.5, 8.0 ],
+            "to":   [ 9.5, 16.0, 16.0 ],
+            "faces": {
+                "east":  { "texture": "#bars", "uv": [ 0.0, 0.0, 16.0, 1.5 ] },
+                "south": { "texture": "#bars", "uv": [ 6.5, 0.0, 9.5, 1.5 ] },
+                "west":  { "texture": "#bars", "uv": [ 0.0, 0.0, 16.0, 1.5 ] },
+                "up":    { "texture": "#bars", "uv": [ 0.0, 6.5, 16.0, 9.5 ], "rotation": 90 },
+                "down":  { "texture": "#bars", "uv": [ 16.0, 9.5, 0.0, 6.5 ], "rotation": 270 }
+            }
+        },
+        {
+            "name": "Foot",
+            "from": [ 6.5, 0.0, 8.0 ],
+            "to":   [ 9.5, 1.5, 16.0 ],
+            "faces": {
+                "east":  { "texture": "#bars", "uv": [ 0.0, 14.5, 16.0, 16.0 ] },
+                "south": { "texture": "#bars", "uv": [ 6.5, 14.5, 9.5, 16.0 ] },
+                "west":  { "texture": "#bars", "uv": [ 0.0, 14.5, 16.0, 16.0 ] },
+                "up":    { "texture": "#bars", "uv": [ 0.0, 6.5, 16.0, 9.5 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Element",
+            "from": [ 6.5, 1.5, 15.0 ],
+            "to":   [ 9.5, 14.5, 16.0 ],
+            "faces": {
+                "north": { "texture": "#bars", "uv": [ 6.5, 1.5, 9.5, 14.5 ] },
+                "east":  { "texture": "#bars", "uv": [ 13.5, 1.5, 15.0, 14.5 ] },
+                "south": { "texture": "#bars", "uv": [ 6.5, 1.5, 9.5, 14.5 ] },
+                "west":  { "texture": "#bars", "uv": [ 1.0, 1.5, 2.5, 14.5 ] }
+            }
+        },
+        {
+            "name": "Rotated part",
+            "from": [ 7.0, 1.5, 8.8 ],
+            "to":   [ 9.0, 15.92, 9.8 ],
+            "rotation": { "origin": [ 7.0, 1.5, 8.8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#bars", "uv": [ 6.5, 1.0, 9.5, 14.0 ] },
+                "east":  { "texture": "#bars", "uv": [ 10.5, 1.0, 12.0, 14.0 ] },
+                "south": { "texture": "#bars", "uv": [ 6.5, 1.0, 9.5, 14.0 ] },
+                "west":  { "texture": "#bars", "uv": [ 4.0, 1.0, 5.5, 14.0 ] }
+            }
+        }
+    ]
+}

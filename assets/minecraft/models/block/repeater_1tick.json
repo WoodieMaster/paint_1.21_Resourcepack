@@ -1,0 +1,49 @@
+{
+	"__comment": "Designed by Smillingdeathlp with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "paint/belt_outer",
+		"texture": "paint/belt_outer",
+		"texture1": "paint/belt_inner"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 1, 16 ],
+			"faces": {
+				"down": { "uv": [ 1, 1, 16, 16 ], "texture": "#texture" },
+				"up": { "uv": [ 1, 0, 16, 15 ], "texture": "#texture1" },
+				"north": { "uv": [ 0, 15, 15, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 1, 15, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 15, 15, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 1, 15, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ -1, -1, 0 ],
+			"to": [ 0, 2, 16 ],
+			"faces": {
+				"down": { "uv": [ 1, 0, 15, 1 ], "texture": "#texture", "rotation": 90 },
+				"up": { "uv": [ 1, 15, 15, 16 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 0, 14, 1, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 15, 14, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 1, 14, 15, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 1, 14, 15, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 16, -1, 0 ],
+			"to": [ 17, 2, 16 ],
+			"faces": {
+				"down": { "uv": [ 1, 0, 15, 1 ], "texture": "#texture", "rotation": 90 },
+				"up": { "uv": [ 1, 15, 15, 16 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 0, 14, 1, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 15, 14, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 1, 14, 15, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 1, 14, 15, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

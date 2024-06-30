@@ -1,0 +1,194 @@
+{
+    "parent": "block/block",
+    "__comment": "Model generated using pointy checkpoints lawl",
+    "textures": {
+        "particle": "paint/ground/black01",
+        "cpoint": "paint/ground/black01"
+    },
+    "elements": [
+        {
+            "name": "Cube outer 1",
+            "from": [ 4.0, 0.0, 5.5 ], 
+            "to":   [ 5.0, 0.6, 10.5 ], 
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Cube outer 2",
+            "from": [ 11.0, 0.0, 5.5 ], 
+            "to":   [ 12.0, 0.6, 10.5 ], 
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Cube outer 3",
+            "from": [ 5.5, 0.0, 4.0 ], 
+            "to":   [ 10.5, 0.6, 5.0 ], 
+            "faces": {
+                "north": { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "south": { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Cube outer 4",
+            "from": [ 5.5, 0.0, 11.0 ], 
+            "to":   [ 10.5, 0.6, 12.0 ], 
+            "faces": {
+                "north": { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "south": { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Rotated corner outer 1",
+            "from": [ 4.0, 0.001, 10.5 ],
+            "to":   [ 5.0, 0.599, 12.6213 ],
+            "rotation": { "origin": [ 4.0, 0.0, 10.5 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Rotated corner outer 2",
+            "from": [ 4.0, 0.001, 3.3787 ],
+            "to":   [ 5.0, 0.599, 5.5 ],
+            "rotation": { "origin": [ 4.0, 0.0, 5.5 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Rotated corner outer 3",
+            "from": [ 11.0, 0.001, 10.5 ],
+            "to":   [ 12.0, 0.599, 12.6213 ],
+            "rotation": { "origin": [ 12.0, 0.0, 10.5 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Rotated corner outer 4",
+            "from": [ 11.0, 0.001, 3.3787 ],
+            "to":   [ 12.0, 0.599, 5.5 ],
+            "rotation": { "origin": [ 12.0, 0.0, 5.5 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Cube inner 1",
+            "from": [ 9.0, 0.0, 7.15 ], 
+            "to":   [ 9.6, 0.6, 8.85 ], 
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Cube inner 2",
+            "from": [ 6.4, 0.0, 7.15 ], 
+            "to":   [ 7.0, 0.6, 8.85 ], 
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Cube inner 3",
+            "from": [ 7.15, 0.0, 6.4 ], 
+            "to":   [ 8.85, 0.6, 7.0 ], 
+            "faces": {
+                "north": { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "south": { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.6 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.6 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Cube inner 4",
+            "from": [ 7.15, 0.0, 9.0 ], 
+            "to":   [ 8.85, 0.6, 9.6 ], 
+            "faces": {
+                "north": { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "south": { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.6 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.6 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Rotated corner inner 1",
+            "from": [ 9.0, 0.001, 6.0895 ],
+            "to":   [ 9.6, 0.599, 7.15 ],
+            "rotation": { "origin": [ 9.6, 0.0, 7.15 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Rotated corner inner 2",
+            "from": [ 6.4, 0.001, 8.85 ],
+            "to":   [ 7.0, 0.599, 9.9105 ],
+            "rotation": { "origin": [ 6.4, 0.0, 8.85 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Rotated corner inner 3",
+            "from": [ 6.4, 0.001, 6.0895 ],
+            "to":   [ 7.0, 0.599, 7.15 ],
+            "rotation": { "origin": [ 6.4, 0.0, 7.15 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Rotated corner inner 4",
+            "from": [ 9.0, 0.001, 8.85 ],
+            "to":   [ 9.6, 0.599, 9.9105 ],
+            "rotation": { "origin": [ 9.6, 0.0, 8.85 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "east":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "west":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 1.8, 0.3 ] },
+                "up":    { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ] },
+                "down":  { "texture": "#cpoint", "uv": [ 0.0, 0.0, 0.6, 1.8 ], "cullface": "down" }
+            }
+        }
+    ]
+}

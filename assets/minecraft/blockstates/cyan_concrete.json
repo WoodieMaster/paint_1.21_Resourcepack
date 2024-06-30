@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/cyan_concrete" },
+
+            { "model": "block/cyan_concrete_2" },
+			{ "model": "block/cyan_concrete_2", "x": 90 },
+			{ "model": "block/cyan_concrete_2", "y": 90 },
+
+            { "model": "block/cyan_concrete_3" },
+			{ "model": "block/cyan_concrete_3", "x": 90 },
+			{ "model": "block/cyan_concrete_3", "y": 90 },
+
+            { "model": "block/cyan_concrete_4" },
+			{ "model": "block/cyan_concrete_4", "x": 90 },
+			{ "model": "block/cyan_concrete_4", "y": 90 }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "powered=false": [
+            { "model": "block/spruce_pressure_plate" },
+            { "model": "block/spruce_pressure_plate", "y": 90 },
+            { "model": "block/spruce_pressure_plate", "y": 180 },
+            { "model": "block/spruce_pressure_plate", "y": 270 }
+        ],
+        "powered=true": [
+            { "model": "block/spruce_pressure_plate" },
+            { "model": "block/spruce_pressure_plate", "y": 90 },
+            { "model": "block/spruce_pressure_plate", "y": 180 },
+            { "model": "block/spruce_pressure_plate", "y": 270 }
+        ]
+    }
+}

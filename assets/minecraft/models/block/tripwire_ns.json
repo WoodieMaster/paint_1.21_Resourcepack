@@ -1,0 +1,19 @@
+{
+	"__comment": "designed by halbzwilling with bdcraft cubik pro 0.96 beta - http://bdcraft.net",
+	"textures": {
+		"particle": "block/fizzler",
+		"texture": "block/fizzler",
+		"sandstone_bottom": "paint/ground/white01"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneX6",
+			"from": [ 8.000086, -0.0006473112, 0.0005840306 ],
+			"to": [ 8.001086, 15.99935, 16.00058 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

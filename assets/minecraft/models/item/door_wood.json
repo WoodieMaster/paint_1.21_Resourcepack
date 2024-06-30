@@ -1,0 +1,73 @@
+{
+	"__comment": "Designed by Halbzwilling with Cubik Studio - http://bdcraft.net",
+	"textures": {
+		"texture": "paint/door1"
+	},
+	"elements": [
+		{
+			"__comment": "Cube1",
+			"from": [ -15, -15, 6 ],
+			"to": [ 31, 31, 10 ],
+			"faces": {
+				"down": { "uv": [ 0, 6, 16, 10 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 6, 16, 10 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Cube2",
+			"from": [ -16, -16, 5 ],
+			"to": [ 32, -14, 11 ],
+			"faces": {
+				"down": { "uv": [ 0, 5, 16, 11 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 5, 16, 11 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 16, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 16, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 5, 16, 11, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 5, 16, 11, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Cube2",
+			"from": [ -16, 30, 5 ],
+			"to": [ 32, 32, 11 ],
+			"faces": {
+				"down": { "uv": [ 0, 5, 16, 11 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 5, 16, 11 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 16, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 16, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 5, 16, 11, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 5, 16, 11, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Cube2",
+			"from": [ -16, -14, 5 ],
+			"to": [ -14, 30, 11 ],
+			"faces": {
+				"down": { "uv": [ 0, 5, 16, 11 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 5, 16, 11 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 16, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 16, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 5, 16, 11, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 5, 16, 11, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Cube2",
+			"from": [ 30, -14, 5 ],
+			"to": [ 32, 30, 11 ],
+			"faces": {
+				"down": { "uv": [ 0, 5, 16, 11 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 5, 16, 11 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 16, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 16, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 5, 16, 11, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 5, 16, 11, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

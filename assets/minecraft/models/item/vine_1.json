@@ -1,0 +1,34 @@
+{
+	"__comment": "Designed by Halbzwilling with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "paint/wall01",
+		"texture": "block/leaves_paint"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ21",
+			"from": [ -2.000277, -4.000624, 0.4990536 ],
+			"to": [ 17.99972, 19.99938, 0.5000536 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneZ21",
+			"from": [ -4.000113, -3.999539, -0.0005285396 ],
+			"to": [ 19.99989, 20.00046, 0.0004714604 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation":  [ 0, -32, 0 ],
+			"scale":  [ 1.5, 1.5, 1.5 ]
+		}
+	}
+}

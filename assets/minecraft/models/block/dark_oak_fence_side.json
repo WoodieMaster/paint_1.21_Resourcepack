@@ -1,0 +1,62 @@
+{
+	"__comment": "designed by halbzwilling with bdcraft cubik pro 0.96 beta - http://bdcraft.net",
+	"parent": "block/block",
+	"textures": {
+		"particle": "paint/ground/gray02",
+		"texture": "paint/ground/gray01"
+	},
+	"elements": [
+		{
+			"__comment": "Box9",
+			"from": [ 6.999615, 1.999835, 1.000537 ],
+			"to": [ 8.999615, 13.99984, 2.500537 ],
+			"faces": {
+				"north": { "uv": [ 7, 2, 9, 14 ], "texture": "#texture" },
+				"south": { "uv": [ 7, 2, 9, 14 ], "texture": "#texture" },
+				"west": { "uv": [ 1, 2, 2.5, 14 ], "texture": "#texture" },
+				"east": { "uv": [ 13.5, 2, 15, 14 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box9",
+			"from": [ 5.999932, -0.0001686164, 0.0001729864 ],
+			"to": [ 9.999932, 1.999831, 6.000173 ],
+			"faces": {
+				"down": { "uv": [ 10, 6, 16, 10 ], "texture": "#texture", "cullface": "down", "rotation": 90 },
+				"up": { "uv": [ 10, 6, 16, 10 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 6, 14, 10, 16 ], "texture": "#texture", "cullface": "north" },
+				"west": { "uv": [ 0, 14, 6, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 10, 14, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box9",
+			"from": [ 6.000257, 13.99992, 0.0002442023 ],
+			"to": [ 10.00026, 15.99992, 6.000244 ],
+			"faces": {
+				"down": { "uv": [ 10, 6, 16, 10 ], "texture": "#texture", "rotation": 90 },
+				"up": { "uv": [ 10, 6, 16, 10 ], "texture": "#texture", "cullface": "up", "rotation": 270 },
+				"north": { "uv": [ 6, 0, 10, 2 ], "texture": "#texture", "cullface": "north" },
+				"west": { "uv": [ 0, 0, 6, 2 ], "texture": "#texture" },
+				"east": { "uv": [ 10, 0, 16, 2 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box9",
+			"from": [ 6.999098, 2.000525, 4.500456 ],
+			"to": [ 8.999098, 14.00052, 6.000456 ],
+			"faces": {
+				"north": { "uv": [ 7, 2, 9, 14 ], "texture": "#texture" },
+				"south": { "uv": [ 7, 2, 9, 14 ], "texture": "#texture" },
+				"west": { "uv": [ 4.5, 2, 6, 14 ], "texture": "#texture" },
+				"east": { "uv": [ 10, 2, 11.5, 14 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation":  [ 0, 60, 0 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		}
+	}
+}

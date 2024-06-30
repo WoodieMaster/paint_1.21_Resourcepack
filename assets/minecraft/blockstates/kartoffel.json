@@ -1,0 +1,41 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "random/purple01" },
+			{ "model": "random/purple01", "y": 90 },
+			{ "model": "random/purple01", "y": 180 },
+			{ "model": "random/purple01", "y": 270 },
+			{ "model": "random/purple01", "x": 90 },
+			{ "model": "random/purple01", "x": 180 },
+			{ "model": "random/purple01", "x": 270 },
+            { "model": "random/purple02" },
+			{ "model": "random/purple02", "y": 90 },
+			{ "model": "random/purple02", "y": 180 },
+			{ "model": "random/purple02", "y": 270 },
+			{ "model": "random/purple02", "x": 90 },
+			{ "model": "random/purple02", "x": 180 },
+			{ "model": "random/purple02", "x": 270 },
+            { "model": "random/purple03" },
+			{ "model": "random/purple03", "y": 90 },
+			{ "model": "random/purple03", "y": 180 },
+			{ "model": "random/purple03", "y": 270 },
+			{ "model": "random/purple03", "x": 90 },
+			{ "model": "random/purple03", "x": 180 },
+			{ "model": "random/purple03", "x": 270 },
+            { "model": "random/purple04" },
+			{ "model": "random/purple04", "y": 90 },
+			{ "model": "random/purple04", "y": 180 },
+			{ "model": "random/purple04", "y": 270 },
+			{ "model": "random/purple04", "x": 90 },
+			{ "model": "random/purple04", "x": 180 },
+			{ "model": "random/purple04", "x": 270 },
+            { "model": "random/purple05" },
+			{ "model": "random/purple05", "y": 90 },
+			{ "model": "random/purple05", "y": 180 },
+			{ "model": "random/purple05", "y": 270 },
+			{ "model": "random/purple05", "x": 90 },
+			{ "model": "random/purple05", "x": 180 },
+			{ "model": "random/purple05", "x": 270 }
+        ]
+    }
+}

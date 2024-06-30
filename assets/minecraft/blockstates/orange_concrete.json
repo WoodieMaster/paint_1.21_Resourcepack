@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/orange_concrete" },
+
+            { "model": "block/orange_concrete_2" },
+			{ "model": "block/orange_concrete_2", "x": 90 },
+			{ "model": "block/orange_concrete_2", "y": 90 },
+
+            { "model": "block/orange_concrete_3" },
+			{ "model": "block/orange_concrete_3", "x": 90 },
+			{ "model": "block/orange_concrete_3", "y": 90 },
+
+            { "model": "block/orange_concrete_4" },
+			{ "model": "block/orange_concrete_4", "x": 90 },
+			{ "model": "block/orange_concrete_4", "y": 90 }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": [  { "model": "block/dead_bubble_coral_fan", "weight": 3 },
+               { "model": "block/dead_bubble_coral_fan/dead_bubble_coral_fan1", "weight": 3 },
+               { "model": "block/dead_bubble_coral_fan/dead_bubble_coral_fan2", "weight": 3 } ]
+    }
+}

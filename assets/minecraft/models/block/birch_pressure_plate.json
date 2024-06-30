@@ -1,0 +1,6 @@
+{
+    "parent": "block/paintbucket_parent",
+    "textures": {
+        "color": "paint/color_green"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/slope_inner_parent",
+    "textures": {
+        "slope": "paint/ground/white01"
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"__comment": "designed by halbzwilling with bdcraft cubik pro 0.96 beta - http://bdcraft.net",
+	"textures": {
+		"particle": "block/fizzler",
+		"texture": "block/fizzler",
+		"sandstone_bottom": "paint/ground/white01"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 6.000197, -0.000941303, 12.00037 ],
+			"to": [ 10.0002, 15.99906, 16.00037 ],
+			"faces": {
+				"down": { "uv": [ 10, 16, 6, 12 ], "texture": "#sandstone_bottom", "cullface": "down" },
+				"up": { "uv": [ 6, 12, 10, 16 ], "texture": "#sandstone_bottom", "cullface": "up" },
+				"north": { "uv": [ 6, 0, 10, 16 ], "texture": "#sandstone_bottom" },
+				"south": { "uv": [ 6, 0, 10, 16 ], "texture": "#sandstone_bottom", "cullface": "south" },
+				"west": { "uv": [ 12, 0, 16, 16 ], "texture": "#sandstone_bottom" },
+				"east": { "uv": [ 0, 0, 4, 16 ], "texture": "#sandstone_bottom" }
+			}
+		},
+		{
+			"__comment": "PlaneX6",
+			"from": [ 8.000522, 0.0005546296, -3.602233E-05 ],
+			"to": [ 8.001522, 16.00056, 11.99996 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 12, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 4, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

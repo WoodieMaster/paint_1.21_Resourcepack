@@ -1,5 +1,5 @@
 {
-    "parent": "block/fence_gate_frame_parent",
+    "parent": "block/spruce_fence_gate_open",
     "textures": {
         "frame": "paint/deactivated",
         "particle":"paint/deactivated"
